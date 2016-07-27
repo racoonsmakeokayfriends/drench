@@ -10,9 +10,19 @@ body {
   background-color: #373633;
   font-family: "Lato", Calibri, Arial, sans-serif;
   color: #ffffff;
-  padding-top: 100px;
+  padding-top: 25px;
 }
 
+header { 
+  width: 100%;
+  text-align: center; 
+  padding-bottom: 25px;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .row {
   height: 6.25%;
   width: 100%;
@@ -32,6 +42,7 @@ body {
   width: 85%;
   min-width: 400px;
   max-width: 800px;
+  max-height: 800px;
   margin: auto;
 }
 
